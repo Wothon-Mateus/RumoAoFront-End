@@ -1,0 +1,40 @@
+
+/* 2 Media query */
+
+h1 {
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: aqua;
+    }
+}
+
+/* <!-- 3 Media query com min-width --> */
+
+p {
+    background-color: red;
+    color: #000;
+}
+
+@media screen and (min-width:800px){
+    p {
+    background-color: #789;
+    color: red;
+
+    }
+}
+
+/* <!-- 4 landscape --> */
+
+h2{
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    h2{
+        display: block;
+    }
+}
+    
