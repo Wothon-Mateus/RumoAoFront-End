@@ -1,0 +1,520 @@
+/* 4 - External */
+
+    body{
+        padding-bottom: 500px;
+    }
+
+    h3{
+        color: green;
+    }
+
+    h4{
+        color: aqua;
+    }
+    /* Atanho para cometario ctrl + ; */
+    
+    /* Classes */
+
+    .paragraph {
+        background-color: black;
+        color: aqua;
+        padding: 5px;
+    }
+    /*  IDs */
+
+    #exclusive {
+        background-color: purple;
+        color: #000;
+    }
+
+    /* 10 Ordem das regras */
+
+    h2 {
+        border-bottom: 2px solid rgb(153, 51, 51);
+    }
+
+    .titulo {
+        border-bottom: 3px solid blue;
+    }
+
+    #algum_titulo {
+        border-bottom: 3px solid green;
+    }
+
+    /* 11 Nome de cor */
+
+    .color-name {
+        color: indianred;
+    }
+
+    /* 12 HEX  */
+
+    .hex {
+        color: #55a398;
+    }
+
+    /* Aprofuntado em hex */
+
+    .simple-hex{
+        color: #aa55ff;
+    }
+
+    simple-hex-2 {
+        color: rgb(136, 16, 216);
+    }
+
+    /* RGB */
+
+    .rgb {
+        color: rgb(25,45,05);
+    }
+
+    /* RGBA deixa o conteudo enficivil */
+
+    .rgba {
+        color: rgba(100,199,45,0.3);
+    }
+
+    /* HSL */
+
+    .hsl {
+        color: hsl(103, 53%, 40%);
+    }
+
+    /* backgroud */
+
+    .bg{
+        background-color: #000;
+        color: yellow;
+    }
+
+    /* Background opacity */
+
+    .bg-opacity {
+        background-color: rgb(122, 145, 122);
+        color: #000;
+        opacity: 0.2;
+    }
+
+    /* RGBA com opacidade */
+
+    .rgba-apacity {
+        background-color: rgba(90,120,20, 0.2);
+        color: #000;
+
+    }
+
+    /* 20 BG imagem  */
+
+    .bg-image {
+        background-image: url(../Senção1/img/naruto-uzumaki_qabz.webp);
+        padding: 10px;
+        color: #fff;
+
+    }
+
+    /* 21 Centralizar imagem de Background */
+
+    .not-centered, .centered {
+        height: 400px;
+        width: 400px;
+        background-image: url(../Senção1/img/naruto-uzumaki_qabz.webp);
+    }
+
+    .centered{
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    /* Largura e altura */
+
+    .heigth-width {
+        height: 200px;
+        width: 100px;
+        background-color: red;
+    }
+    .heigth-width-2 {
+    height: 300px;
+    background-color: #000;
+    }
+
+    /* Padding */
+
+    .without-padding,.padding  {
+        background-color: black;
+        color: #fff
+    }
+
+    .padding {
+        background-color: #55a398;
+        padding: 20px;
+    }
+
+    /* Padding-indivildual */
+    .padding-individual{
+
+        background-color:  #222;
+        color: #fff;
+        padding-top: 5px ;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+
+    }
+
+    /* 25 Shorthand padding */
+
+    .shorthand-padding {
+        background-color: #444;
+        
+        padding: 6px 12px 18px 24px; /* top, direita, baixo, esquerda*/  
+    }
+
+    /* 26 padding com width */
+
+    .withont-border-box {
+        background-color: #444;
+        color: #fff;
+        width: 400px;
+        padding: 50px;
+    }
+
+    .border-box{
+        background-color: #444;
+        color: #fff;
+        width: 400px;
+        padding: 50px; 
+        box-sizing: border-box;
+    }
+
+    /* Border */
+
+    .border {
+        border: 5px solid red;
+        padding: 10px;
+    }
+
+    .border-2 {
+        border: 2px dotted #921;
+        padding: 4px
+    }
+
+    /* <!-- 28 borda individual --> */
+
+    .border-left {
+        border-left: 3px solid red;
+        background-color: #fff;
+        padding: 25px;
+    }
+
+    .border-botton {
+        border-bottom: 5px double #399;
+        background-color: #000;
+        padding: 25px;
+    }
+
+    /* <!-- 29 - borda arendondada --> */
+
+    .rounded-p {
+        border: 4px solid blue;
+        background-color: #000;
+        color: blue;
+        padding: 15px;
+        border-radius: 90px;
+
+    }
+
+    .rounded-p-2 {
+        
+        background-color: #000;
+        color: blue;
+        padding: 15px;
+        border-radius: 25px;
+
+    }
+
+    /* <!-- 30 - Margin  --> */
+
+    .margin {
+        margin: 10px;
+        background-color: #222;
+
+    }
+
+    .margin-top {
+        margin-top: 50px;
+        background-color: #444;
+        padding: 10px;
+
+    }
+
+    .margin-shorthand {
+
+        background-color: #666;
+        margin: 4px 45px 21px 30px;
+
+    }
+
+    /* <!-- 31 box-model --> */
+
+    .box {
+        margin: 20px;
+        padding: 15px 25px;
+        border: 3px solid #921;
+        border-radius: 7px;
+        width: 200px;
+        height: 400px;
+    }
+
+    /* Desafio 3 */
+
+    .todas-regras {
+        
+        margin: 20px #ff5;
+        padding: 15px 25px ;
+        border: 3px solid #921;
+        border-radius: 7px;
+        width: 200px rgb(230, 226, 4);
+        height: 400px #0bdd55;
+        outline: 3px solid #ff3;
+    }
+
+    #so-quer-pediu {
+        background-color: #0bd;
+        border: none;
+    }
+
+    /* 33 texto alinhado */
+
+    .text-aligned {
+        text-align: right;
+    }
+    .container-certer {
+        text-align: center;
+        width: 300px;
+        border: 1px solid red;
+    }
+
+    /* <!-- 34 text decoration --> */
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    .line-trough{
+
+        text-decoration: line-through;
+
+    }
+
+    .remove-underline{
+        text-decoration: nome;
+        color: #000;
+    }
+
+    /* <!-- Transformação de texto --> */
+
+    .upper{
+        text-transform: uppercase;
+    }
+
+    .lower {
+        text-transform: lowercase;
+    }
+
+    /* <!-- 36 Letter-spacing (espacamento de lentras) --> */
+
+    .spacing {
+        letter-spacing: 5px;
+    }
+
+    /* <!-- 37 Mudar fonte (font-family) --> */
+
+    .font {
+        font-family: cursive;
+    }
+
+    .font-2 {
+
+        font-family: Helvetica;
+
+    }
+
+    /* <!-- 38 Estilo de Fonte --> */
+
+    .estilo {
+        font-style: oblique;
+    }
+
+    .italic{
+        font-style: italic;
+    }
+
+    /* <!-- 39 Font weight (grossura da fonte) --> */
+
+    .thin,.bold,.bolder {
+        font-family: oblique;
+    }
+
+    .thin{
+        font-weight: 100 ;
+    }
+
+    .bold{
+        font-weight: 600;
+    }
+
+    .bolder{
+        font-weight: 900;
+    }
+
+    /* <!-- 40 Font size (tamanho da fonte) --> */
+
+    .small {
+        font-size: 6px;
+    }
+
+    .big{
+        font-size: 70px;
+    }
+
+    /* <!-- 41 Display --> */
+
+    .inline-box {
+        width: 50px;
+        height: 50px;
+        background-color: #0bdd55;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .block{
+       background-color: #333;
+       display: block;
+       margin: 10px; 
+    }
+
+    /* <!-- 42 Escondendo elementos --> */
+
+    .invisible {
+        display: none;
+    }
+
+    /* <!-- 43 Position static --> */
+
+    .static {
+        position: static;
+        background-color: #391;
+        color: #fff;
+        width: 100px;
+        height: 100px;
+    }
+
+    /* <!-- 44  Position relative --> */
+
+    .relative {
+      position: relative;
+      background-color: rgb(113, 231, 102);
+      color: #fff;
+      width: 100px;
+      height: 100px;
+      top: 100px;
+      left: 40px;
+    }
+
+    /* <!-- 45 Position absolute --> */
+
+    .absolute {
+        position: absolute;
+        background-color: rgba(157, 182, 13, 0.658);
+        color: #fff;
+        width: 100px;
+        height: 100px; 
+        top: 2px;
+        left: 2px;
+    }
+
+    /* <!-- 46 Position absolute com relative --> */
+
+    .reative-container {
+        width: 300px;
+        height: 300px;
+        border: 1px solid red;
+        margin-top: 120px;
+        position: relative;
+    }
+
+    .absolute-1, .absolute-2 {
+        width: 50px;
+        height: 50px;
+        background-color: #422;
+        position: absolute;
+    }
+
+    .absolute-1 {
+        top: 10px;
+        left: 10px;
+    }
+
+    .absolute-2 {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    /* <!-- 47 Position fixed --> */
+
+    .fixed {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        background-color: #851;
+        border: 1px solid blue;
+        margin-top: 120px;
+        top: 50px;
+        right: 100px;
+
+    }
+
+    /* <!-- 48 Position sticky --> */
+
+    .sticky {
+        position: sticky;
+        width: 100px;
+        height: 100px;
+        background-color: rgba(238, 255, 0, 0.795);
+        border: 1px solid green;
+        margin-top: 120px;
+        top: 10px;
+        
+    }
+
+    /* <!-- 48 Z-index --> */
+
+    .absolute-3, .absolute-4, .absolute-5 {
+        width: 50px;
+        height: 50px;
+        background-color: #123;
+        position: absolute;
+    }
+
+    .absolute-3 {
+        top: 0;
+        left: 0;
+        z-index: 3;
+
+    }
+
+    .absolute-4 {
+        top: 10px;
+        left: 10px;
+        background-color: #146;
+        z-index: 2;
+    }
+
+    .absolute-5 {
+        top: 40px;
+        left: 40px;
+        background-color: #453;
+        z-index: 1;
+    }
