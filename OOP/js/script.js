@@ -45,7 +45,7 @@ console.log(arr.length);
 
 console.log(Object.getPrototypeOf(arr) === Array.prototype);
 
-// 4 - mais sobre prototype
+// 4 -mais sobre prototype
 const myObject = {
     a: "b",
 };
