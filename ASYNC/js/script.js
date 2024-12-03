@@ -1,4 +1,4 @@
-// 1 - setTimeout
+// 1 - setTimeou
 console.log("Ainda não executou");
 
 setTimeout(function () {
