@@ -9,7 +9,7 @@ const animal = {
   animal.latir();
 
 
-// 2 - aprofundando em métodos
+// 2 - aprofundando em  métodos
 const pessoa = {
     nome: "Matheus",
   
