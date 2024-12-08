@@ -11,7 +11,7 @@ console.log("Ainda não executou 2")
 console.log("Ainda não começou");
 
 // setInterval(function () {
-//   console.log( "Intervalo assíncrono");
+//   console.log( "Intervalo  assíncrono");
 // }, 3000);
 //
 
