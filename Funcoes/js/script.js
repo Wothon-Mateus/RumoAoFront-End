@@ -35,7 +35,7 @@ console.log(soma(c, d));
 
 console.log(soma(4,3));
 
-// 3 - escopo da função
+// 3 -escopo da função
 let y = 10;
 
 function testandoEscopo() {
