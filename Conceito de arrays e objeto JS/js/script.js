@@ -9,7 +9,7 @@ const itens = ["Matheus", true, 2, 4.12];
 
 console.log(itens);
 
-// 2 - mais sobre arrays arrays
+// 2 - mais sobre arrays
 const arr = ["a", "b", "c", "d"];
 
 console.log(arr[0]);
