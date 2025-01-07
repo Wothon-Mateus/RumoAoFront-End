@@ -32,7 +32,7 @@ body {
 
 }
 
-/* <!-- 5 Posicionando o  conteudo (justijy-contet) --> */
+/* <!-- 5 Posicionando o  conteudo ( justijy-contet) --> */
 
 .center, .space-around, .space-between , .end{
     display: flex;
