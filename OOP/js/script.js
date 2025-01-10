@@ -1,4 +1,4 @@
-// 1 métodos
+// 1 métodos (Teste)
 const animal = {
     nome: "Bob",
     latir: function () {
